@@ -15,7 +15,18 @@
 // ["Max", "John", "Mark"]           -->  "Max, John and Mark like this"
 // ["Alex", "Jacob", "Mark", "Max"]  -->  "Alex, Jacob and 2 others like this"
 // function likes(names) {
-
+// 	const expression = Array.isArray(names) && names.length
+// 	if (expression === 0 || names === undefined) {
+// 		return "no one likes this"
+// 	} else if (expression === 1) {
+// 		return `${names[0]} likes this`
+// 	} else if (expression === 2) {
+// 		return `${names[0]} and ${names[1]} like this`
+// 	} else if (expression === 3) {
+// 		return `${names[0]}, ${names[1]} and ${names[2]} like this`
+// 	} else if (expression > 3) {
+// 		return `${names[0]}, ${names[1]} and ${names.length - 2} others like this`
+// 	}
 // }
 // console.log('2 Завдання:', likes(["Alex", "Jacob"]));
 
