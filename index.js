@@ -52,19 +52,46 @@
 // 	return res.join(' ')
 // }
 
-// console.log('3 Завдання', spinWords("Just gniddik there is still one more"));
+// console.log('3 Завдання:', spinWords("Just gniddik there is still one more"));
 
 // !==========================================================================
 
-// Convert string to camel case(6 kyu)
+// Convert string to camel case(6 kyu)✅
 // 4. https://www.codewars.com/kata/517abf86da9663f1d2000003/train/javascript
 // Examples
 // "the-stealth-warrior" gets converted to "theStealthWarrior"
 // "The_Stealth_Warrior" gets converted to "TheStealthWarrior"
-// function toCamelCase(str){
+// 1. Якісь інші пропуски можуть бути?
+// 2. Цифри можуть бути?
+// Object.defineProperty(String.prototype, 'capitalize', {
+// 	value: function () {
+// 		return this.charAt(0).toUpperCase() + this.slice(1);
+// 	},
+// 	enumerable: false
+// });
 
+// function toCamelCase(str) {
+// 	let res = []
+// 	let arrayFromStr = str.split(/[_ -]/)
+// 	res.push(arrayFromStr[0])
+
+// 1.5 год сидів і виправляв цей іф. Потім видалив все взагалі - запрацювало)
+// 	if (arrayFromStr[0][0] === arrayFromStr[0][0].toUpperCase()) {
+// 	if (arrayFromStr[0][0] === arrayFromStr[0][0].match(/[A-Z]/g)) {
+
+// 	if (arrayFromStr[0][0]) {
+// 		for (let i = 1; i < arrayFromStr.length; i++) {
+// 			res.push(arrayFromStr[i].capitalize())
+// 		}
+// 	}
+// 	else if (arrayFromStr[0][0] !== /[A-Z]/) {
+// 		for (let j = 1; j < arrayFromStr.length; j++) {
+// 			res.push(arrayFromStr[j].capitalize())
+// 		}
+// 	}
+// 	return res.join('')
 // }
-// console.log('4 Завдання', toCamelCase("The-Stealth-Warrior"));
+// console.log('4 Завдання:', toCamelCase("She-stealth-Warr_or"));
 
 // !==========================================================================
 
@@ -73,4 +100,4 @@
 // function sumStrings(a,b) {
 
 // }
-// console.log('5 Завдання', sumStrings('1', '2'));
+// console.log('5 Завдання:', sumStrings('1', '2'));
