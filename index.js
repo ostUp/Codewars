@@ -4,7 +4,7 @@
 // function createPhoneNumber(numbers) {
 // 	return `(${numbers.join('').slice(0, 3)}) ${numbers.join('').slice(3, 6)}-${numbers.join('').slice(6, 10)}`
 // }
-// console.log('1 Завдання', createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]));
+// console.log('1 Завдання:', createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]));
 
 // !==========================================================================
 
@@ -17,7 +17,7 @@
 // function likes(names) {
 
 // }
-// console.log('2 Завдання', likes(["Peter"]));
+// console.log('2 Завдання:', likes(["Alex", "Jacob"]));
 
 // !==========================================================================
 
