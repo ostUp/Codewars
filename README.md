@@ -1,1 +1,1 @@
-<h1>My completed CodeWars tasks🔥🚀✔</h1>
+<h1>My completed Codewars tasks🔥🚀✔</h1>

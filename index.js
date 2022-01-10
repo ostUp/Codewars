@@ -1,7 +1,8 @@
+// Create Phone Number(6 kyu)✅
 // 1. https://www.codewars.com/kata/525f50e3b73515a6db000b83/train/javascript
 // createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) // => returns "(123) 456-7890"
 // function createPhoneNumber(numbers) {
-
+// 	return `(${numbers.join('').slice(0, 3)}) ${numbers.join('').slice(3, 6)}-${numbers.join('').slice(6, 10)}`
 // }
 // console.log('1 Завдання', createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]));
 
