@@ -8,6 +8,7 @@
 
 // !==========================================================================
 
+// Who likes it?(6 kyu)✅
 // 2.  https://www.codewars.com/kata/5266876b8f4bf2da9b000362/train/javascript
 // []                                -->  "no one likes this"
 // ["Peter"]                         -->  "Peter likes this"
@@ -32,18 +33,30 @@
 
 // !==========================================================================
 
+// Stop gninnipS My sdroW!(6 kyu)✅
 // 3. https://www.codewars.com/kata/5264d2b162488dc400000001/train/javascript
 // Examples:
 // spinWords("Hey fellow warriors") => returns "Hey wollef sroirraw"
 // spinWords("This is a test") => returns "This is a test"
 // spinWords("This is another test") => returns "This is rehtona test"
 // function spinWords(string) {
-
+// 	let res = []
+// 	let arrayFromSring = string.split(' ')
+// 	for (let i = 0; i < arrayFromSring.length; i++) {
+// 		if (arrayFromSring[i].length >= 5) {
+// 			res.push(`${arrayFromSring[i].split('').reverse().join('')}`)
+// 		} else {
+// 			res.push(`${arrayFromSring[i]}`)
+// 		}
+// 	}
+// 	return res.join(' ')
 // }
-// console.log('3 Завдання', spinWords("This is another test"));
+
+// console.log('3 Завдання', spinWords("Just gniddik there is still one more"));
 
 // !==========================================================================
 
+// Convert string to camel case(6 kyu)
 // 4. https://www.codewars.com/kata/517abf86da9663f1d2000003/train/javascript
 // Examples
 // "the-stealth-warrior" gets converted to "theStealthWarrior"
