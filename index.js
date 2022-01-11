@@ -95,10 +95,11 @@
 
 // !==========================================================================
 
+// Sum Strings as Numbers(4 kyu)❌
 // 5. https://www.codewars.com/kata/5324945e2ece5e1f32000370/train/javascript
 // sumStrings('1','2') // => '3'
-// function sumStrings(a,b) {
-
+// function sumStrings(a, b) {
+// 	return ((+a) + (+b)).toString()
 // }
 // console.log('5 Завдання:', sumStrings('1', '2'));
 
