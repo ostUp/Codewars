@@ -111,3 +111,20 @@
 
 // }
 // console.log('6 Завдання:', moveZeros([false, 1, 0, 1, 2, 0, 1, 3, "a"]));
+
+// !==========================================================================
+
+// Counting Duplicates(6 kyu)
+// 7. https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1/train/javascript
+// Example
+// "abcde" -> 0 # no characters repeats more than once
+// "aabbcde" -> 2 # 'a' and 'b'
+// "aabBcde" -> 2 # 'a' occurs twice and 'b' twice (`b` and `B`)
+// "indivisibility" -> 1 # 'i' occurs six times
+// "Indivisibilities" -> 2 # 'i' occurs seven times and 's' occurs twice
+// "aA11" -> 2 # 'a' and '1'
+// "ABBA" -> 2 # 'A' and 'B' each occur twice
+// function duplicateCount(text) {
+
+// }
+// console.log('7 Завдання:', duplicateCount("aabbcde"));
