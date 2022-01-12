@@ -129,3 +129,16 @@
 
 // }
 // console.log('7 Завдання:', duplicateCount("aabbcde"));
+
+
+// 16+18=214(7 kyu)
+// 8. https://www.codewars.com/kata/5effa412233ac3002a9e471d/train/javascript
+// 16
+// +
+// 18
+// --
+// 214
+// function add(num1, num2) {
+
+// }
+// console.log('8 Завдання:', add(222, 11));
