@@ -130,6 +130,7 @@
 // }
 // console.log('7 Завдання:', duplicateCount("aabbcde"));
 
+// !==========================================================================
 
 // 16+18=214(7 kyu)
 // 8. https://www.codewars.com/kata/5effa412233ac3002a9e471d/train/javascript
@@ -142,3 +143,16 @@
 
 // }
 // console.log('8 Завдання:', add(222, 11));
+
+// !==========================================================================
+
+// The Hashtag Generator(5 kyu)
+// 9. https://www.codewars.com/kata/52449b062fb80683ec000024/train/javascript
+// Examples
+// " Hello there thanks for trying my Kata"  =>  "#HelloThereThanksForTryingMyKata"
+// "    Hello     World   "                  =>  "#HelloWorld"
+// ""                                        =>  false
+// function generateHashtag(str) {
+
+// }
+// console.log('9 Завдання:', add('A dcds edef Dfff'));
