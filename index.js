@@ -63,6 +63,7 @@
 // "The_Stealth_Warrior" gets converted to "TheStealthWarrior"
 // 1. Якісь інші пропуски можуть бути?
 // 2. Цифри можуть бути?
+
 // Object.defineProperty(String.prototype, 'capitalize', {
 // 	value: function () {
 // 		return this.charAt(0).toUpperCase() + this.slice(1);
